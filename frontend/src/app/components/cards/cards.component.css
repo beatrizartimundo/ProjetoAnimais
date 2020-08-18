@@ -1,0 +1,28 @@
+.sup{
+    display: flex;
+    background-color: transparent;
+    
+}
+
+
+.cards {
+    border:solid 1px #ccc;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+    margin: 5px;
+    text-align: center;
+    padding:5px;
+    border-radius: 5px;
+    background-color: transparent;
+    
+}
+.cards img{
+    height: 150px;
+    width: 250px;
+    background-color: transparent;
+    
+}
+.cards p{
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-weight: bold;
+}

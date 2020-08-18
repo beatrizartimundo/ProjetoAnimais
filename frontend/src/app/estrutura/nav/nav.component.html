@@ -1,0 +1,25 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" 
+    fixedTopGap="64" fixedBottomGap="60">
+        <div class="nova">
+            <app-botao  [itens]="itens" (acao)="fun($event)">
+
+            </app-botao>
+        
+            <button   mat-raised-button color="primary" routerLink="/">
+               Cadastro de raças
+            </button>
+        </div>
+        
+        
+    </mat-sidenav>
+    <mat-sidenav-content class="content">
+    
+    <app-cards [animais]="cachorros" *ngIf="SCachorros"></app-cards>
+    <app-cards [animais]="gatos" *ngIf="Sgatos"></app-cards>
+    <router-outlet>
+    </router-outlet>
+</mat-sidenav-content>
+
+
+</mat-sidenav-container>

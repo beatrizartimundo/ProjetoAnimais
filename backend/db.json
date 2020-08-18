@@ -1,0 +1,15 @@
+{
+    "animais":[
+        {
+            "id":1,
+            "raca":"Golden",
+            "tipo":"Cachorro"
+        },
+        {
+            "id":2,
+            "raca":"Bengal",
+            "tipo":"Gato"
+
+        }
+    ]
+}

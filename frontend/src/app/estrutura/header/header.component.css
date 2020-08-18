@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+}
+.texto{
+    display: flex;
+    margin: 15px;
+    
+}
+.icon{
+    
+    margin: 5px;
+    
+}
