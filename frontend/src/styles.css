@@ -6,10 +6,7 @@ body{
     background-color: whitesmoke;*/
     margin: 0 ;
 }
-button{
-    display: flex;
-    flex-direction: column;
-}
+
 
 
 

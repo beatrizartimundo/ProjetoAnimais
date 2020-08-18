@@ -3,8 +3,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 @Component({
   selector: 'app-botao',
   templateUrl: './botao.component.html',
-  styles: [
-  ]
+  styleUrls: ['./botao.component.css']
 })
 export class BotaoComponent implements OnInit {
 

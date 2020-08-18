@@ -1,8 +1,8 @@
 .nova{
     display: flex;
     flex-direction: column;
-    width: 130px;
-    margin: 5px;
+    width: 200px;
+    
     padding: 5px;
 }
 
@@ -10,4 +10,9 @@
     
     padding:16px;
     background-color: transparent;
+}
+
+.b{
+    display: flex;
+    flex: 1;
 }

@@ -1,0 +1,9 @@
+.div_bo{
+    display: flex;
+    flex-direction: column;
+    
+}
+.bo{
+    display: flex;
+    flex: 1;
+}
