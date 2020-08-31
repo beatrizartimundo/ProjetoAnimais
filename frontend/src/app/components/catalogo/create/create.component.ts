@@ -21,4 +21,17 @@ export class CreateComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  save(): void{
+    this.service.create(this.Animais).subscribe(()=>{
+      this.service.showMessage('Catalogo salvo')
+      this.router.navigate(['/cadastro'])
+    })
+    
+
+  }
+
+  cancel(): void{
+    this.router.navigate(['/cadastro'])
+  }
+
 }

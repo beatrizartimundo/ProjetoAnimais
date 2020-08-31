@@ -1,8 +1,8 @@
-<mat-card>
+<mat-card class="container">
     <mat-card-title>
         Nova raça
     </mat-card-title>
-    <form>
+    <form class="formularios">
         <mat-form-field>
             <mat-label>Nome da Raça</mat-label>
             <input matInput  [(ngModel)]="Animais.raca"  
@@ -15,5 +15,15 @@
         </mat-form-field>
 
     </form>
+    <div class="botao">
+        <button mat-raised-button color="warm"  (click)="cancel()">
+        Cancelar
+        </button>
+        <button mat-raised-button color="accent" (click)="save()">
+        Salvar
+        </button>
 
+    </div>
+    
 </mat-card>
+
