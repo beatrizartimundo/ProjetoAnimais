@@ -14,6 +14,26 @@
       "raca": "york",
       "tipo": "cachorro",
       "id": 3
+    },
+    {
+      "raca": "srd",
+      "tipo": "cachorro",
+      "id": 4
+    },
+    {
+      "raca": "siames",
+      "tipo": "gato",
+      "id": 5
+    },
+    {
+      "raca": "Pastor alemão",
+      "tipo": "cachorro",
+      "id": 6
+    },
+    {
+      "raca": "poodle",
+      "tipo": "cachorro",
+      "id": 7
     }
   ]
 }

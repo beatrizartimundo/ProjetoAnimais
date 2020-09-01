@@ -24,6 +24,10 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import{MatInputModule} from '@angular/material/input';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
+
+
 
 
 @NgModule({
@@ -53,7 +57,9 @@ import{MatInputModule} from '@angular/material/input';
     MatFormFieldModule,
     HttpClientModule,
     FormsModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule
     
   ],
   providers: [],
