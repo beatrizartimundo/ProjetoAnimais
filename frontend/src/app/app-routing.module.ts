@@ -4,6 +4,8 @@ import {CrudComponent} from './estrutura/crud/crud.component';
 import {CreateComponent} from './components/catalogo/create/create.component';
 import {UpdateComponent} from './components/catalogo/update/update.component';
 import {DeleteComponent} from './components/catalogo/delete/delete.component';
+import {CardsComponent} from './components/cards/cards.component';
+  import { from } from 'rxjs';
 
 
 const routes: Routes = [
@@ -22,6 +24,10 @@ const routes: Routes = [
   {
     path:"cadastro/delete/:id",
     component:DeleteComponent
+  },
+  {
+    path: "listagem",
+    component:CardsComponent
   }
 
 
