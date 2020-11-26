@@ -103,6 +103,10 @@
           "options": {
             "browserTarget": "animais:build"
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
