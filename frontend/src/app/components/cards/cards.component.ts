@@ -16,7 +16,7 @@ export class CardsComponent implements OnInit {
   Sgatos = false;
 
   ngOnInit(): void {
-    this.router.navigate(['/listagem'])
+    
   }
 
   itens=[

@@ -5,10 +5,7 @@
             <app-botao   [itens]="itens" (acao)="fun($event)">
 
             </app-botao>
-        
-            <button   mat-raised-button color="primary" routerLink="/cadastro">
-               Cadastro de raças
-            </button>
+               
         </div>
         
         
@@ -17,8 +14,7 @@
     
     <app-cards [animais]="cachorros" *ngIf="SCachorros"></app-cards>
     <app-cards [animais]="gatos" *ngIf="Sgatos"></app-cards>
-    <router-outlet>
-    </router-outlet>
+   
 </mat-sidenav-content>
 
 

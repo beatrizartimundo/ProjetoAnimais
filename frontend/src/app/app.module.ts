@@ -15,11 +15,6 @@ import{MatCardModule} from '@angular/material/card';
 import{MatListModule} from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSnackBarModule } from '@angular/material/snack-bar';
-import { CreateComponent } from './components/catalogo/create/create.component';
-import { CrudComponent } from './estrutura/crud/crud.component';
-import { ReadComponent } from './components/catalogo/read/read.component';
-import { UpdateComponent } from './components/catalogo/update/update.component';
-import { DeleteComponent } from './components/catalogo/delete/delete.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
@@ -38,11 +33,7 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     HeaderComponent,
     NavComponent,
     FooterComponent,
-    CreateComponent,
-    CrudComponent,
-    ReadComponent,
-    UpdateComponent,
-    DeleteComponent
+    
   ],
   imports: [
     BrowserModule,
